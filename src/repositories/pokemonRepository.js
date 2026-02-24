@@ -69,6 +69,7 @@ export const getPokemonTypes = async () => {
   }
 };
 
+
 export const getPokemonByType = async (typeName) => {
   try {
     const response = await axios.get(`${BASE_URL}/type/${typeName.toLowerCase()}`);
