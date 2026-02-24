@@ -5,6 +5,7 @@ on:
 
 jobs:
 <<<<<<< HEAD
+<<<<<<< HEAD
   extract-pr-info:
     name: Extract PR Information
     runs-on: ubuntu-latest
@@ -86,6 +87,8 @@ jobs:
 
 =======
 >>>>>>> e3a635a8aa55de0b5ea1b7e91c3e2776b956a081
+=======
+>>>>>>> 2880014a5a2b8be30674f22cf898a3a58c45b8d2
   lint:
     name: Lint
     runs-on: ubuntu-latest
